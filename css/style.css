@@ -18,20 +18,25 @@ header{
 }
 
 .input-texto{
+    border-radius: 0.5em;
+    border-color: goldenrod;
     display: block;
     margin-top: 20px;
     margin-bottom: 10px;
-    width: 80%;
+    width: 100%;
 }
 
 .mensaje{
+    border-radius: 0.5em;
+    border-color: goldenrod;
     display: block;
     margin-top: 20px;
     margin-bottom: 10px;
-    width: 80%;
+    width: 100%;
 }
 
 .boton{
+    text-align: center;
     margin-right: 1em;
     width: 30%;
     padding: 15px 0;
@@ -52,9 +57,11 @@ header{
 }
 
 .botoncopiar{
+    text-align: center;
+    margin-right: 1em;
     width: 30%;
     padding: 15px 0;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     color: white;
     background: goldenrod;
@@ -76,6 +83,10 @@ footer{
     padding: 1em;
     margin-top: 2em;
     background-color: #efefef;
+}
+
+.derecha{
+    text-align: end;
 }
 
 @media screen and (max-width:480px) {
