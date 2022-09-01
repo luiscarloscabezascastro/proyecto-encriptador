@@ -1,0 +1,86 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: #eeeeee;
+    text-align: center;
+    padding: 2em;
+}
+.logo{
+    width: 80px;
+}
+
+.bloque{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.input-texto{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.mensaje{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.boton{
+    margin-right: 1em;
+    width: 30%;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: goldenrod;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.boton:hover{
+    background: darkgoldenrod;
+    border: 1px solid darkgoldenrod;
+    transform: scale(1.1);
+}
+
+.botoncopiar{
+    width: 30%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: goldenrod;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.botoncopiar:hover{
+    background: darkgoldenrod;
+    border: 1px solid darkgoldenrod;
+    transform: scale(1.1);
+}
+
+footer{
+    text-align: center;
+    font-size: 13px;
+    padding: 1em;
+    margin-top: 2em;
+    background-color: #efefef;
+}
+
+@media screen and (max-width:480px) {
+    .bloque{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
